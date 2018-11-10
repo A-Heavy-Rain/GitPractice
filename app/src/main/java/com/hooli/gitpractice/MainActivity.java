@@ -11,9 +11,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // 1commit master
-        getActionBar();
+        test("cesi");
         // 1commit merge
         getApplication();
+
+    }
+    private void test(String s){
 
     }
 }
